@@ -1,0 +1,65 @@
+/*Diseño del Header*/
+header {
+  height: 88px;
+}
+
+.caja {
+  width: 1136px;
+  display: flex;
+  flex-direction: row;
+  padding: 1rem 0;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo h1 {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 1.75;
+  font-size: 25px;
+  font-weight: bold;
+  text-shadow: 3px 2px 5px #000000;
+}
+.logoA {
+  width: 50px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+}
+
+nav ul {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  gap: 15px;
+}
+
+nav li {
+  margin: 0 0 0 15px;
+  transition: all 250ms;
+}
+nav li:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+}
+
+nav a {
+  color: #000000;
+  font-weight: bold;
+  font-size: 16px;
+  text-decoration: none;
+  transition: all 250ms;
+}
+nav a:hover {
+  color: #c78c19;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+}

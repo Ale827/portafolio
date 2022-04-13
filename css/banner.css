@@ -1,0 +1,88 @@
+/*Diseño del Banner*/
+#banner{
+    width: 1136px;
+    height: 368px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+}
+#banner .banner-texto{
+    padding: 61px 0;
+}
+
+.presentacion{
+    width: 751px;
+}
+.presentacion h1{
+    font-size: 52px;
+    font-weight: bold;
+    padding: 12px 0;
+}
+.presentacion p{
+    font-size: 22px;
+    padding: 12px 0;
+}
+
+
+.redes{
+    width: 467px;
+    margin: 1em 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.enlace-redes {
+    text-decoration: none;
+    color: #000000;
+    font-weight: bold;
+    transition: 0.5s;
+   
+}
+.enlace-redes:hover{
+    font-size: 18px;
+}
+
+.enlace-redes:hover .imagenes-redes{
+    transform: scale(1.5) rotate(360deg);
+}
+
+
+.imagenes-redes{
+    vertical-align: bottom;
+    margin: 0 10px 0 0;
+    width: 20px;
+    transition: .5s all;
+}
+
+
+
+.fperfil{
+    width: 368px;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    right: -13px; 
+}
+
+.foto{
+    position: relative;
+    top: -76px;
+    width: 368px;
+    transition: 1.5s;
+}
+
+.foto:hover{
+    transform:scale(1.5);
+}
+
+@media  screen  and (max-width: 768px){
+    
+    
+}

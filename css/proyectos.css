@@ -1,0 +1,177 @@
+/*Diseño Proyectos*/
+
+#proyectos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.titulo__seccion {
+  margin: 32px 0;
+  margin-left: 7.5rem;
+  font-family: "Raleway";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.container__proyectos {
+  width: 1136px;
+  height: 530px;
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.lista__proyectos {
+  overflow: hidden;
+  overflow-y: scroll;
+
+  padding: 0.3rem;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  gap: 1rem;
+  scroll-behavior: smooth;
+}
+.lista__proyectos::-webkit-scrollbar {
+  display: none;
+}
+
+.proyecto {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+
+  align-items: center;
+  box-shadow: 2px 4px 7px -3px #000000;
+}
+
+.proyecto__img {
+  width: 50%;
+  height: 250px;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.proyecto__info {
+  display: flex;
+  flex-direction: column;
+  width: 368px;
+  height: 112px;
+  margin: 0 16px;
+}
+
+.proyecto__info h2 {
+  font-family: "Raleway";
+  font-size: 22px;
+  line-height: 20px;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.proyecto__info p {
+  font-family: "Raleway";
+  color: #6b7280;
+}
+
+.container__btn {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 5px;
+}
+
+.repo {
+  width: 116px;
+  height: 51px;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid #2a7ae4;
+  box-sizing: border-box;
+  margin: 8px 0;
+  transition: 0.5s;
+}
+.repo:hover {
+  background: #2a7ae4;
+  border-radius: 10px;
+}
+
+.repo a {
+  color: #2a7ae4;
+  text-decoration: none;
+}
+.repo:hover a {
+  color: #ffffff;
+}
+
+.demo {
+  width: 116px;
+  height: 51px;
+  padding: 16px;
+  background: #2a7ae4;
+  border: 0;
+  transition: 0.5s;
+}
+.demo:hover {
+  background: #f5f5f5;
+  border-radius: 10px;
+  border: 1px solid #2a7ae4;
+}
+
+.demo a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.demo:hover a {
+  color: #2a7ae4;
+}
+
+/* Lista referencia */
+
+.proyecto__referencia {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: decimal;
+  text-align: left;
+  position: relative;
+}
+
+.title__referencia {
+  font-family: "Raleway";
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin: 0 auto;
+}
+
+.item__referencia {
+  margin-left: 30%;
+  font-weight: 600;
+  text-align: left;
+}
+
+.nombre__item__referencia {
+  line-height: 2rem;
+  font-family: "Raleway";
+  font-size: 1rem;
+}
+
+.contexto {
+  font-family: "Raleway";
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.atajo__card {
+  color: #000000;
+  text-decoration: none;
+  list-style: none;
+}
